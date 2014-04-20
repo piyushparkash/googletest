@@ -9,7 +9,11 @@ Steps to RUN
 
 1) Install Googletest
     
-    sudo apt-get install libgtest-dev
+    sudo apt-get install libgtest-dev cmake
+    cd /usr/src/gtest
+    sudo cmake CMakeLists.txt
+    sudo make
+    sudo cp *.a /usr/lib
     
 2) Run Cmake
 
