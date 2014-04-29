@@ -3,6 +3,7 @@
 TEST(SimpleTest, singleno)
 {
 ASSERT_EQ(5,something());
+EXPECT_EQ("somethin",return_string());
 }
 
 int main(int argc, char **argv)

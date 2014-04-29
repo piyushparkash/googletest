@@ -1,5 +1,7 @@
-int something()
+int fib(int n)
 {
-	//THis function always returns 5
-	return 5;
-}
+	if (n<0)
+	{
+		return -1;
+	}
+	
